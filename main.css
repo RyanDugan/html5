@@ -1,3 +1,22 @@
 @charset "utf-8";
 /* CSS Document */
 
+*{
+	box-sizing: border-box;
+}
+
+/*---Classes Below Here---*/
+
+.grid-container {
+	display:grid;
+	grid-template-areas: 
+		'header header header header header header'
+		'navbar navbar navbar navbar navbar navbar'
+		'left left middle middle right right'
+		'footer footer footer footer footer';
+}
+.header {
+	grid-area: header;
+	background-color: #6395F2;
+	padding: 30px;
+}
