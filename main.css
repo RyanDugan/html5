@@ -2,6 +2,7 @@
 /* CSS Document */
 *{
 	box-sizing: border-box;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
 }
 
 /*----Classes Below Here----*/
@@ -18,19 +19,29 @@
 }
 .header {
 	grid-area: header;
+	background-color: #6395F2;
+
 }
 .navbar {
 	grid-area: navbar;
+	background-color: #1258DC;
+	color: white;
 }
 .left {
 	grid-area: left;
+	background-color: #0A337F;
+	color: white;
 }
 .middle {
 	grid-area: middle;
+	background-color: #DEE9FC;
 }
 .right {
 	grid-area: right;
+	background-color: #0A337F;
 }
 .footer {
 	grid-area: footer;
+	background-color: #091834;
+	color: #1258DC;
 }
