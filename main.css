@@ -1,41 +1,36 @@
 @charset "utf-8";
 /* CSS Document */
-
 *{
 	box-sizing: border-box;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
 
-/*---Classes Below Here---*/
+/*----Classes Below Here----*/
 
-.grid-container {
+.grid-container{
 	display:grid;
 	grid-template-areas: 
-		'header header header header header header'
-		'navbar navbar navbar navbar navbar navbar'
-		'left left middle middle right right'
-		'footer footer footer footer footer';
-	}
+		'header header header header'
+		'navbar navbar navbar navbar'
+		'left middle middle right'
+		'footer footer footer footer';
+	grid-gap: 1em;
+	text-align: center;
+}
 .header {
 	grid-area: header;
-	background-color: #6395F2;
-	padding: 10px;
-	text-align: center;
-	font-size: 30px;
 }
 .navbar {
 	grid-area: navbar;
-	background-color: #091834;
 }
-
-@media (max-width : 700px ){
-	.grid-container {
-		grid-template-areas: 
-			'header header header header header header'
-			'navbar navbar navbar navbar navbar navbar'
-			'left left left left left left'
-			'middle middle middle middle middle middle'
-			'right right right right right right'
-			'footer footer footer footer footer footer';
-	}
+.left {
+	grid-area: left;
+}
+.middle {
+	grid-area: middle;
+}
+.right {
+	grid-area: right;
+}
+.footer {
+	grid-area: footer;
 }
