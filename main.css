@@ -3,6 +3,7 @@
 
 *{
 	box-sizing: border-box;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
 
 /*---Classes Below Here---*/
@@ -14,11 +15,17 @@
 		'navbar navbar navbar navbar navbar navbar'
 		'left left middle middle right right'
 		'footer footer footer footer footer';
-}
+	}
 .header {
 	grid-area: header;
 	background-color: #6395F2;
-	padding: 30px;
+	padding: 10px;
+	text-align: center;
+	font-size: 30px;
+}
+.navbar {
+	grid-area: navbar;
+	background-color: #091834;
 }
 
 @media (max-width : 700px ){
