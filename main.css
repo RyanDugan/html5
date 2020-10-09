@@ -12,10 +12,6 @@ body {
 img{
 	max-width: 100%;
 	height:auto;
-	padding: 3em;
-}
-iframe{
-	
 }
 h1 {
 	font-family: "josefin slab";
@@ -30,7 +26,6 @@ h1 {
 		'navbar navbar navbar'
 		'left middle right'
 		'footer footer footer';	
-	justify-content: center;
 }
 .header {
 	grid-area: header;
