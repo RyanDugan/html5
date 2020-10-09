@@ -2,10 +2,12 @@
 /* CSS Document */
 *{
 	box-sizing: border-box;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+	font-family: "josefin slab" Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
 }
 body {
 	background-color: #DEE9FC;
+	font-family: "josefin slab";
+	font-size: 17px;
 }
 img{
 	max-width: 100%;
@@ -14,6 +16,9 @@ img{
 }
 iframe{
 	
+}
+h1 {
+	font-family: "josefin slab";
 }
 
 /*----Classes Below Here----*/
