@@ -10,8 +10,8 @@ body {
 	font-size: 17px;
 }
 img{
-	max-width: 100%;
 	height:auto;
+	width: 100%;
 }
 h1 {
 	font-family: "josefin slab";
@@ -37,7 +37,7 @@ h1 {
 .navbar {
 	grid-area: navbar;
 	background-color: #1258DC;
-	color: white;
+	color: #DEE9FC;
 	text-align: left;
 	padding: 8px;
 }
@@ -49,20 +49,17 @@ h1 {
 }
 .left {
 	grid-area: left;
-	background-color: #0A337F;
 	color: white;
 }
 .middle {
 	grid-area: middle;
 	text-align: left;
 	padding: 1em;
+	background-color: #0A337F;
+	color: #DEE9FC;
 }
 .right {
 	grid-area: right;
-	background-color: #0A337F;
-	color: white;
-}
-.container {
 	position: relative;
 	width: 100%;
 	overflow: hidden;
