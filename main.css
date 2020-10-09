@@ -9,8 +9,7 @@ body {
 }
 img{
 	max-width: 100%;
-	height:auto;
-	padding: 1em;
+	height:100%;
 }
 
 /*----Classes Below Here----*/
@@ -21,7 +20,7 @@ img{
 		'header header header'
 		'navbar navbar navbar'
 		'left middle right'
-		'footer footer footer';
+		'footer footer footer';	
 }
 .header {
 	grid-area: header;
@@ -41,19 +40,19 @@ img{
 	display: inline-block;
 	list-style-type: none;
 	cursor: pointer;
+	padding-right: 2em;
 }
 .left {
 	grid-area: left;
-	background-color: #0A337F;
 	color: white;
 }
 .middle {
 	grid-area: middle;
 	text-align: left;
+	padding: 1em;
 }
 .right {
 	grid-area: right;
-	background-color: #0A337F;
 	color: white;
 }
 .container {
