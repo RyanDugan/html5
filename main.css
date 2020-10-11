@@ -5,7 +5,7 @@
 	font-family: "josefin slab" Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
 }
 body {
-	background-color: #DEE9FC;
+	background-color: #EBF7D4;
 	font-family: "josefin slab";
 	font-size: 17px;
 
@@ -16,7 +16,7 @@ img{
 	justify-content: center;
 }
 h1 {
-	font-family: "josefin slab";
+	font-family: "badaboom-pro";
 }
 
 /*----Classes Below Here----*/
@@ -29,18 +29,20 @@ h1 {
 		'left middle right'
 		'footer footer footer';	
 	grid-template-columns: 30% 30% 40%;
+	
 }
 .header {
 	grid-area: header;
-	background-color: #6395F2;
+	background-color: #98CA32;
 	padding: 30px;
 	font-size: 30px;
 	text-align: center;
+	color: #236AB9
 }
 .navbar {
 	grid-area: navbar;
-	background-color: #1258DC;
-	color: #DEE9FC;
+	background-color: #091D34;
+	color: #EBF7D4;
 	text-align: left;
 	padding: 8px;
 }
@@ -57,8 +59,9 @@ h1 {
 	grid-area: middle;
 	text-align: left;
 	padding: 1em;
-	background-color: #0A337F;
-	color: #DEE9FC;
+	background-color: #236AB9;
+	color: #EBF7D4;
+
 }
 .right {
 	grid-area: right;
@@ -79,8 +82,8 @@ h1 {
 }
 .footer {
 	grid-area: footer;
-	background-color: #091834;
-	color: #6395F2;
+	background-color: #091D34;
+	color: #98CA32;
 	text-align: right;
 }
 .footer li {
